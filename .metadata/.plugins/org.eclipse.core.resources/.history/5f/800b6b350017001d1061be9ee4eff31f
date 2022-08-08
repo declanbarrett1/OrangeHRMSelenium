@@ -1,0 +1,14 @@
+package tests.loginPage;
+
+import org.openqa.selenium.WebDriver;
+
+import pages.ForgottenPasswordPage;
+import pages.LoginPage;
+
+public class TC002_ForgottenPasswordTest {
+
+	WebDriver driver;
+	LoginPage loginPage;
+	ForgottenPasswordPage forgottenPasswordPage;
+	String className = this.getClass().getSimpleName();
+}

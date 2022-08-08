@@ -1,0 +1,30 @@
+package tests.loginPage;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeTest;
+
+import pages.ForgottenPasswordPage;
+import pages.LoginPage;
+import testbase.TestBase;
+
+public class TC002_ForgottenPasswordTest {
+
+	WebDriver driver;
+	LoginPage loginPage;
+	ForgottenPasswordPage forgottenPasswordPage;
+	String className = this.getClass().getSimpleName();
+	Logger logger;
+	
+	@BeforeTest
+	public void testSetup() {
+		driver = TestBase.setup();
+		logger = TestBase.getLogger();
+		logger.info("Starting Test: " + className);
+		loginPage = new LoginPage(driver);
+		forgottenPasswordPage = new ForgottenPasswordPage(driver);
+		loginPage.forgottonPasswordLink();
+		TestBase.sleep(1000);
+		forgottenPasswordPage.checkURL(logger);
+	}
+}

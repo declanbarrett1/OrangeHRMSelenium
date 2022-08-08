@@ -1,0 +1,38 @@
+package pages;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class ForgottenPasswordPage {
+	WebDriver driver;
+	@FindBy(id="securityAuthentication_userName") WebElement inputUsername;
+	@FindBy(id="btnSearchValues") WebElement resetButton;
+	@FindBy(id="btnCancel")
+	
+	public ForgottenPasswordPage(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}
+
+	public boolean checkURL(Logger logger) {
+		if(driver.getCurrentUrl().equals("https://opensource-demo.orangehrmlive.com/index.php/auth/requestPasswordResetCode")) {
+			logger.info("We are on the forgotten password page");
+			return true;
+		}
+		else {
+			logger.info("We are not on the forgotten password page... or the URL has changed");
+			return false;
+		}
+	}
+	
+	public void inputUsernameField(String user) {
+		inputUsername.sendKeys(user);
+	}
+	
+	public void resetPasswordButton() {
+		resetButton.click();
+	}
+}

@@ -1,0 +1,41 @@
+package tests.loginPage;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import pages.HomePage;
+import pages.LoginPage;
+import testbase.TestBase;
+
+public class TC001_TestLogin {
+	
+	WebDriver driver;
+	LoginPage loginPage;
+	HomePage homePage;
+
+	
+	@BeforeTest
+	public void setupTest(){
+		driver = TestBase.setup();
+		loginPage = new LoginPage(driver);
+		loginPage.typeUsername("Admin");
+		loginPage.typePassword("admin123");
+		loginPage.clickLoginButton();
+		TestBase.sleep(2000);
+		homePage = new HomePage(driver);
+	}
+	
+	@Test
+	public void testingLogin() {
+		Boolean testPass = false;
+		String title = driver.getTitle();
+		Assert.assertEquals(title, "OrangeHRM");
+		if(homePage.checkingExistance.isDisplayed()) {
+			testPass = true;
+		}
+		
+	}
+	
+}

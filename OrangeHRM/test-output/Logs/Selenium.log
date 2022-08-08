@@ -1,0 +1,37 @@
+2022-08-08 10:28:31 INFO  OrangeHRM:20 - This is my first log4j's statement
+2022-08-08 10:39:41 INFO  OrangeHRM:20 - Creating Logger
+2022-08-08 10:39:44 INFO  OrangeHRM:31 - Starting test: TC001_TestLogin
+2022-08-08 10:39:46 INFO  OrangeHRM:46 - URL Title is correct
+2022-08-08 10:39:46 INFO  OrangeHRM:54 - Element is Displayed
+2022-08-08 10:39:47 INFO  OrangeHRM:68 - Finishing Test: TC001_TestLogin
+2022-08-08 11:09:19 INFO  OrangeHRM:20 - Creating Logger
+2022-08-08 11:09:23 INFO  OrangeHRM:27 - Starting Test: TC002_ForgottenPasswordTest
+2022-08-08 11:09:24 INFO  OrangeHRM:26 - We are not on the forgotten password page... or the URL has changed
+2022-08-08 11:09:24 INFO  OrangeHRM:56 - Ending Test: TC002_ForgottenPasswordTest
+2022-08-08 11:09:51 INFO  OrangeHRM:20 - Creating Logger
+2022-08-08 11:09:54 INFO  OrangeHRM:27 - Starting Test: TC002_ForgottenPasswordTest
+2022-08-08 11:09:55 INFO  OrangeHRM:26 - We are not on the forgotten password page... or the URL has changed
+2022-08-08 11:09:55 INFO  OrangeHRM:56 - Ending Test: TC002_ForgottenPasswordTest
+2022-08-08 11:10:09 INFO  OrangeHRM:20 - Creating Logger
+2022-08-08 11:10:13 INFO  OrangeHRM:27 - Starting Test: TC002_ForgottenPasswordTest
+2022-08-08 11:10:17 INFO  OrangeHRM:26 - We are not on the forgotten password page... or the URL has changed
+2022-08-08 11:10:17 INFO  OrangeHRM:56 - Ending Test: TC002_ForgottenPasswordTest
+2022-08-08 11:12:21 INFO  OrangeHRM:20 - Creating Logger
+2022-08-08 11:12:25 INFO  OrangeHRM:27 - Starting Test: TC002_ForgottenPasswordTest
+2022-08-08 11:12:29 INFO  OrangeHRM:26 - We are not on the forgotten password page... or the URL has changed
+2022-08-08 11:12:29 INFO  OrangeHRM:60 - Ending Test: TC002_ForgottenPasswordTest
+2022-08-08 11:13:03 INFO  OrangeHRM:20 - Creating Logger
+2022-08-08 11:13:07 INFO  OrangeHRM:27 - Starting Test: TC002_ForgottenPasswordTest
+2022-08-08 11:13:11 INFO  OrangeHRM:26 - We are not on the forgotten password page... or the URL has changed
+2022-08-08 11:13:11 INFO  OrangeHRM:53 - Password Link Not clicked correctly, test failed
+2022-08-08 11:13:11 INFO  OrangeHRM:61 - Ending Test: TC002_ForgottenPasswordTest
+2022-08-08 11:14:21 INFO  OrangeHRM:20 - Creating Logger
+2022-08-08 11:14:24 INFO  OrangeHRM:27 - Starting Test: TC002_ForgottenPasswordTest
+2022-08-08 11:14:28 INFO  OrangeHRM:22 - We are on the forgotten password page
+2022-08-08 11:14:33 INFO  OrangeHRM:46 - Cancelled the password reset and redirected to login page
+2022-08-08 11:14:33 INFO  OrangeHRM:61 - Ending Test: TC002_ForgottenPasswordTest
+2022-08-08 11:15:12 INFO  OrangeHRM:20 - Creating Logger
+2022-08-08 11:15:16 INFO  OrangeHRM:27 - Starting Test: TC002_ForgottenPasswordTest
+2022-08-08 11:15:20 INFO  OrangeHRM:22 - We are on the forgotten password page
+2022-08-08 11:15:27 INFO  OrangeHRM:47 - Cancelled the password reset and redirected to login page
+2022-08-08 11:15:27 INFO  OrangeHRM:62 - Ending Test: TC002_ForgottenPasswordTest

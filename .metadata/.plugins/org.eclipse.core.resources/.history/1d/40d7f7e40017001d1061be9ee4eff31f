@@ -1,0 +1,23 @@
+package pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+public class ForgottenPasswordPage {
+	WebDriver driver;
+	
+
+	public ForgottenPasswordPage(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}
+
+	public void checkURL(Logger logger) {
+		if(driver.getCurrentUrl().equals("https://opensource-demo.orangehrmlive.com/index.php/auth/requestPasswordResetCode")) {
+			logger.info("We are on the forgotten password page");
+		}
+		else {
+			logger.info("We are not on the forgotten password page... or the URL has changed")
+		}
+	}
+}

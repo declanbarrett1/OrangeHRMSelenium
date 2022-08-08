@@ -1,0 +1,5 @@
+package tests.loginPage;
+
+public class TC001_TestLogin {
+
+}

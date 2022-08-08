@@ -1,0 +1,5 @@
+package tests.loginPage;
+
+public class TC002_ForgottenPasswordTest {
+
+}
