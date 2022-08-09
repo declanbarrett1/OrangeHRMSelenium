@@ -77,3 +77,46 @@
 2022-08-09 10:18:46 INFO  OrangeHRM:25 - Starting Test: TC0010_MaintenanceChecking
 2022-08-09 10:18:48 INFO  OrangeHRM:20 - Creating Logger
 2022-08-09 10:19:12 INFO  OrangeHRM:20 - Creating Logger
+2022-08-09 10:37:03 INFO  OrangeHRM:20 - Creating Logger
+2022-08-09 10:37:08 INFO  OrangeHRM:26 - Starting Test: TC001_GettingToAddUserDataStage
+2022-08-09 10:37:47 INFO  OrangeHRM:20 - Creating Logger
+2022-08-09 10:37:51 INFO  OrangeHRM:26 - Starting Test: TC001_GettingToAddUserDataStage
+2022-08-09 10:37:57 INFO  OrangeHRM:35 - Test Passed - On correct URL
+2022-08-09 10:37:57 INFO  OrangeHRM:46 - Finishing Test: TC001_GettingToAddUserDataStage
+2022-08-09 11:02:44 INFO  OrangeHRM:20 - Creating Logger
+2022-08-09 11:02:46 INFO  OrangeHRM:26 - Starting Test: TC002_AddingUser
+2022-08-09 11:03:16 INFO  OrangeHRM:60 - Test Finished: TC002_AddingUser
+2022-08-09 11:07:26 INFO  OrangeHRM:20 - Creating Logger
+2022-08-09 11:07:29 INFO  OrangeHRM:26 - Starting Test: TC002_AddingUser
+2022-08-09 11:07:38 INFO  OrangeHRM:35 - User type Selected
+2022-08-09 11:07:39 INFO  OrangeHRM:41 - Employees name entered
+2022-08-09 11:07:40 INFO  OrangeHRM:46 - username entered
+2022-08-09 11:07:41 INFO  OrangeHRM:52 - select status
+2022-08-09 11:07:42 INFO  OrangeHRM:57 - entered password
+2022-08-09 11:07:43 INFO  OrangeHRM:62 - Entered confirm password
+2022-08-09 11:07:45 INFO  OrangeHRM:67 - save button clicked
+2022-08-09 11:07:45 INFO  OrangeHRM:46 - User added - Test Passed
+2022-08-09 11:07:46 INFO  OrangeHRM:60 - Test Finished: TC002_AddingUser
+2022-08-09 11:30:13 INFO  OrangeHRM:20 - Creating Logger
+2022-08-09 11:30:17 INFO  OrangeHRM:29 - Starting Test: TC003_AddingUserWithParams
+2022-08-09 11:30:24 INFO  OrangeHRM:66 - Test Finished: TC003_AddingUserWithParams
+2022-08-09 11:31:13 INFO  OrangeHRM:20 - Creating Logger
+2022-08-09 11:31:16 INFO  OrangeHRM:29 - Starting Test: TC003_AddingUserWithParams
+2022-08-09 11:31:25 INFO  OrangeHRM:35 - User type Selected
+2022-08-09 11:31:26 INFO  OrangeHRM:41 - Employees name entered
+2022-08-09 11:31:27 INFO  OrangeHRM:46 - username entered
+2022-08-09 11:31:28 INFO  OrangeHRM:52 - select status
+2022-08-09 11:31:29 INFO  OrangeHRM:57 - entered password
+2022-08-09 11:31:30 INFO  OrangeHRM:62 - Entered confirm password
+2022-08-09 11:31:32 INFO  OrangeHRM:67 - save button clicked
+2022-08-09 11:31:32 INFO  OrangeHRM:52 - User added - Test Passed
+2022-08-09 11:32:13 INFO  OrangeHRM:66 - Test Finished: TC003_AddingUserWithParams
+2022-08-09 11:32:54 INFO  OrangeHRM:20 - Creating Logger
+2022-08-09 11:32:57 INFO  OrangeHRM:29 - Starting Test: TC003_AddingUserWithParams
+2022-08-09 11:33:05 INFO  OrangeHRM:66 - Test Finished: TC003_AddingUserWithParams
+2022-08-09 11:33:36 INFO  OrangeHRM:20 - Creating Logger
+2022-08-09 11:33:39 INFO  OrangeHRM:29 - Starting Test: TC003_AddingUserWithParams
+2022-08-09 11:33:47 INFO  OrangeHRM:66 - Test Finished: TC003_AddingUserWithParams
+2022-08-09 11:37:43 INFO  OrangeHRM:20 - Creating Logger
+2022-08-09 11:37:47 INFO  OrangeHRM:29 - Starting Test: TC003_AddingUserWithParams
+2022-08-09 11:37:54 INFO  OrangeHRM:66 - Test Finished: TC003_AddingUserWithParams

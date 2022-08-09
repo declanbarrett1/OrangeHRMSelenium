@@ -25,12 +25,16 @@ public class HomePage {
 	@FindBy(id="menu_directory_viewDirectory") WebElement directoryDropDown;
 	@FindBy(id="menu_maintenance_purgeEmployee") WebElement maintenanceDropDown;
 	@FindBy(id="menu_buzz_viewBuzz") WebElement buzzDropDown;
+	@FindBy(id="menu_admin_UserManagement") WebElement userManagement;
+	@FindBy(id="menu_admin_viewSystemUsers") WebElement users;
+	@FindBy(id="btnAdd") WebElement addUser;
 
 
 	
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
+		action = new Actions(driver);
 	}
 	
 	
@@ -89,6 +93,14 @@ public class HomePage {
 
 	public void clickingBuzzLink(){
 		buzzDropDown.click();
+		TestBase.sleep(2000);
+	}
+	public void addingUser(){
+		action.moveToElement(adminDropDown).perform();
+		action.moveToElement(userManagement).perform();
+		action.moveToElement(users).click().perform();
+		TestBase.sleep(2000);
+		addUser.click();
 		TestBase.sleep(2000);
 	}
 
