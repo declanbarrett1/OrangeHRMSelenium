@@ -64,7 +64,7 @@ public class TC001_TestLogin {
 	
 	@AfterTest
 	public void teardown() {
-		driver.close();
+		driver.quit();
 		logger.info("Finishing Test: " + className);
 	}
 	

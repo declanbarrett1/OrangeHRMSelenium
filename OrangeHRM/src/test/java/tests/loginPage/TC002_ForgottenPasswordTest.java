@@ -58,7 +58,7 @@ public class TC002_ForgottenPasswordTest {
 	}
 	@AfterTest
 	public void tearDown() {
-		driver.close();
+		driver.quit();
 		logger.info("Ending Test: " +className);
 	}
 }
